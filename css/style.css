@@ -2,3 +2,37 @@
 {
     background-image: url("../img/bg.jpg");
 }
+header > nav
+{
+    height: 60px;
+}
+header > nav > ul
+{
+    height: inherit;
+    line-height: 60px;
+    text-align: center;
+}
+header > nav > ul > li
+{
+    display:inline;
+}
+
+.widthMax
+{
+    margin: 0 auto;
+    width: 1020px;
+}
+.headerColor
+{
+    background-color: black;
+    color:rgb(231, 194, 0);
+}
+header > h1, header > h2
+{
+    text-align: center;
+}
+.linkBar
+{
+    background-color: rgb(193, 193, 193);
+    color: rgb(101, 101, 101);
+}
