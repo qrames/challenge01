@@ -11,6 +11,7 @@ header > nav > ul
 header > nav > ul > li
 {
     display:inline;
+    margin-left: 2em;
 }
 
 .widthMax
@@ -21,8 +22,16 @@ header > nav > ul > li
 .headerColor
 {
     background-color: black;
-    color:rgb(231, 194, 0);
 }
+.headerFontColor
+{
+    color: rgb(231, 194, 0);
+}
+.menu
+{
+    color: white;
+}
+
 header h1, header h2
 {
     margin: 0 auto;
@@ -32,6 +41,7 @@ h1
 {
     font-size: 6em;
     line-height: 2em;
+    font-family: 'Josefin', serif;
 }
 h2
 {
@@ -40,8 +50,10 @@ h2
 }
 .linkBar
 {
+    font-size: 30px;
     background-color: rgb(193, 193, 193);
     color: rgb(101, 101, 101);
+    justify-content: space-around;
 }
 #title
 {
