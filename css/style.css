@@ -105,3 +105,12 @@ h4
     text-transform: uppercase;
     padding: 20px 0;
 }
+#bottomButton
+{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    font-size: 2em;
+    background-color: rgba(0,0,0,0);
+    border: none;
+}
