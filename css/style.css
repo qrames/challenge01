@@ -2,13 +2,9 @@
 {
     background-image: url("../img/bg.jpg");
 }
-header > nav
-{
-    height: 60px;
-}
+
 header > nav > ul
 {
-    height: inherit;
     line-height: 60px;
     text-align: center;
 }
@@ -27,12 +23,27 @@ header > nav > ul > li
     background-color: black;
     color:rgb(231, 194, 0);
 }
-header > h1, header > h2
+header h1, header h2
 {
+    margin: 0 auto;
     text-align: center;
+}
+h1
+{
+    font-size: 6em;
+    line-height: 2em;
+}
+h2
+{
+    font-size: 1em;
+    line-height: 2em;
 }
 .linkBar
 {
     background-color: rgb(193, 193, 193);
     color: rgb(101, 101, 101);
+}
+#title
+{
+    height: 260px;
 }
