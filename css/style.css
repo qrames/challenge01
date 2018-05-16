@@ -1,61 +1,98 @@
-.bg
-{
+.bg {
     background-image: url("../img/bg.jpg");
 }
 
-header > nav > ul
-{
+header>nav>ul {
     line-height: 60px;
     text-align: center;
 }
-header > nav > ul > li
-{
-    display:inline;
+
+header>nav>ul>li {
+    display: inline;
     margin-left: 2em;
 }
 
-.widthMax
-{
+.widthMax {
     margin: 0 auto;
     width: 1020px;
 }
-.headerColor
-{
+
+.headerColor {
     background-color: black;
 }
-.headerFontColor
-{
+
+.headerFontColor {
     color: rgb(231, 194, 0);
 }
-.menu
-{
+
+.menu {
     color: white;
+    text-transform: uppercase;
 }
 
-header h1, header h2
-{
+header h1, header h2 {
     margin: 0 auto;
     text-align: center;
+    text-transform: uppercase;
 }
-h1
-{
+
+h1 {
     font-size: 6em;
     line-height: 2em;
     font-family: 'Josefin', serif;
 }
-h2
-{
+
+h2 {
     font-size: 1em;
     line-height: 2em;
 }
-.linkBar
-{
+
+.linkBar {
     font-size: 30px;
     background-color: rgb(193, 193, 193);
     color: rgb(101, 101, 101);
-    justify-content: space-around;
 }
-#title
-{
+
+#title {
     height: 260px;
+}
+
+section {
+    background-color: white;
+    box-sizing: border-box;
+}
+
+section>div>article {
+    width: 260px;
+    display: inline-block;
+    padding: 0 2.9%;
+}
+
+section>div>article:first-child {
+    padding-left: 0;
+}
+
+section>div>article:last-child {
+    padding-right: 0;
+}
+
+section>div>article>p {
+    overflow: hidden;
+}
+.bodyWidth
+{
+    width: 900px;
+    margin: 0 auto;
+}
+h3
+{
+    text-align: center;
+}
+h3, #articles{
+    padding: 40px 0;
+}
+h4
+{
+    text-transform: uppercase;
+    padding: 20px 0;
 }
